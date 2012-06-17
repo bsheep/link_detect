@@ -1,0 +1,16 @@
+{
+    "name": "Link Detect",
+    "version": "0.1",
+    "description": "Check link details",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["style.css"],
+            "js": [
+                "external/jquery-1.7.2.min.js",
+                "link_detect.js"
+            ]
+        }
+    ]
+}
+

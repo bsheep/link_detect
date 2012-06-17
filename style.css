@@ -1,0 +1,6 @@
+.link_detect {
+    position: absolute;
+    background-color: #d8e698;
+    padding: 5px;
+    z-index: 9999;
+}
